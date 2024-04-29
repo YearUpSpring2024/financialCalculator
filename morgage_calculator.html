@@ -58,6 +58,28 @@
 
     <main>
 
+        <div class="container mt-5">
+            <h2 class="mb-4">Morgage Calculator</h2>
+
+            <form id="morgageForm">
+                <div class="form-group">
+                    <label class="form-label" for="principal">Principal Amount</label>
+                    <input type="text" class="form-control" id="principal" />
+                </div>
+                <div class="form-group">
+                    <label for="interest Rate">Interest Rate</label>
+                    <input type="text" class="form-control" id="interesRate" />
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label" for="lengthOfLoan">Length of loan</label>
+                    <input type="text" class="form-control" id="lengthOfLoan" />
+                </div>
+                <button type="button" onclick="calculateMorgage()">Calculate Morgage</button>
+            </form>
+        </div>
+
+        <div id="result"></div>
     </main>
 
 
