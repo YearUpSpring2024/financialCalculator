@@ -53,15 +53,30 @@
             </div>
         </nav>
     </header>
-
-
-
     <main>
-
+        <div class="container mt-5">
+            <h1 class="mb-4">Future Value Calculator</h1>
+            <form action="" id="futureValue">
+                <!-- Deposit -->
+                <div class="mb-3">
+                    <label for="" class="form-label">Deposit Amount ($): </label>
+                    <input type="text" class="form-control" id="deposit" required />
+                </div>
+                <!-- Interest Rate -->
+                <div class="mb-3">
+                    <label for="" class="form-label">Interest Rate (%): </label>
+                    <input type="text" class="form-control" id="interestRate" required />
+                </div>
+                <!-- third -->
+                <div class="mb-3">
+                    <label for="" class="form-label">Number of years: </label>
+                    <input type="text" class="form-control" id="years" required />
+                </div>
+                <button class="btn btn-primary" type="button" onclick="calculateFutureValue()">Calculate</button>
+            </form>
+            <div id="result" class="mt-4"></div>
+        </div>
     </main>
-
-
-
     <footer></footer>
 
 
