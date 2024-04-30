@@ -2,7 +2,7 @@
 
 function calculateFutureValue() {
     const deposit = parseFloat(document.getElementById("deposit").value.trim());
-    const interestRate = parseFloat(document.getElementById("interestRate").value.trim());
+    const interestRate = parseFloat(document.getElementById("interestRate").value.trim()) / 100;
     const years = parseFloat(document.getElementById("years").value.trim());
     const result = document.getElementById("result");
 

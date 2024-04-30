@@ -57,6 +57,28 @@
 
 
     <main>
+        <div class="container mt-5">
+            <h2>Present Value of Annuity Calculator</h2>
+
+            <form action="">
+                <div class="form-group">
+                    <label for="monthlyPayout"> Monthly Payout: </label>
+                    <input type="text" class="form-control" id="monthlyPayout" />
+                </div>
+                <!-- second -->
+                <div class="form-group">
+                    <label for="monthlyPayout"> Interest Rate%: </label>
+                    <input type="text" class="form-control" id="interestRate" />
+                </div>
+                <!-- third -->
+                <div class="form-group">
+                    <label for="monthlyPayout"> Years to Payout: </label>
+                    <input type="text" class="form-control" id="years" />
+                </div>
+                <button type="button" onclick="calculateFutureValue()">Calculate</button>
+            </form>
+            <div class="mt-3" id="result"></div>
+        </div>
 
     </main>
 
