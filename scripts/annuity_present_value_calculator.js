@@ -1,5 +1,6 @@
 "use strict";
 
+
 function calculateFutureValue() {
     const monthlyPayout = parseFloat(document.getElementById("monthlyPayout").value.trim());
     const interestRate = parseFloat(document.getElementById("interestRate").value.trim()) / 100;
